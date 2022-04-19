@@ -1,10 +1,9 @@
 import React from "react";
 import "../styles/Home.css";
-import MicIcon from "@mui/icons-material/Mic";
-import SearchIcon from "@mui/icons-material/Search";
 import AppsIcon from "@mui/icons-material/Apps";
 import { Link } from "react-router-dom";
 import { Avatar } from "@mui/material";
+import Search from "../components/Search";
 
 const Home = () => {
   return (
@@ -20,7 +19,9 @@ const Home = () => {
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           alt="logo"
         />
-        <div className="home-input-container"></div>
+        <div className="home-input-container">
+          <Search />
+        </div>
       </div>
     </div>
   );
