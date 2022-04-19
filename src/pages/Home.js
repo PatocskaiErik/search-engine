@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/Home.css";
+import MicIcon from "@mui/icons-material/Mic";
+import SearchIcon from "@mui/icons-material/Search";
+import AppsIcon from "@mui/icons-material/Apps";
 
 const Home = () => {
   return (
