@@ -1,16 +1,21 @@
 import "./App.css";
 import Home from "./pages/Home";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import SearchPage from "./pages/SearchPage";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <Routes>
-          <Route path="/search"></Route>
+          <Route path="/">
+            <Route index element={<Home />} />
+          </Route>
+          <Route path="/search">
+            <Route index element={<SearchPage />} />
+          </Route>
         </Routes>
-        <Home />
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

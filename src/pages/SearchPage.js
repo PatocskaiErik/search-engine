@@ -7,7 +7,7 @@ import AppsIcon from "@mui/icons-material/Apps";
 const SearchPage = () => {
   return (
     <div className="home">
-      <h1>Homepage</h1>
+      <h1>Searchpage</h1>
       <div className="home-header">Gmail, Images</div>
       <div className="home-body">Google</div>
     </div>
