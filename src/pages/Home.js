@@ -15,7 +15,12 @@ const Home = () => {
         <AppsIcon />
         <Avatar />
       </div>
-      <div className="home-body">Google</div>
+      <div className="home-body">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="logo"
+        />
+      </div>
     </div>
   );
 };
