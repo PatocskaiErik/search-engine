@@ -6,13 +6,13 @@
 
 .home-header {
   display: flex;
-  flex-direction: row;
   padding: 20px 30px;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .home-header a {
-  text-decoration: none;
+  text-decoration: inherit;
   margin-right: 20px;
   color: rgba(0, 0, 0, 0.87);
   font-size: 15px;
@@ -20,4 +20,8 @@
 
 .home-header a:hover {
   text-decoration: underline;
+}
+
+.home-header > .MuiSvgIcon-root {
+  margin-right: 20px;
 }
