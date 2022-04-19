@@ -20,6 +20,7 @@ const Home = () => {
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           alt="logo"
         />
+        <div className="home-input-container"></div>
       </div>
     </div>
   );
