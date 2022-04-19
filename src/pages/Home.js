@@ -3,12 +3,16 @@ import "../styles/Home.css";
 import MicIcon from "@mui/icons-material/Mic";
 import SearchIcon from "@mui/icons-material/Search";
 import AppsIcon from "@mui/icons-material/Apps";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div className="home">
-      <h1>Homepage</h1>
-      <div className="home-header">Gmail, Images</div>
+      <div className="home-header">
+        <Link to="/gmail">Gmail</Link>
+        <Link to="/images">Images</Link>
+        <AppsIcon />
+      </div>
       <div className="home-body">Google</div>
     </div>
   );
